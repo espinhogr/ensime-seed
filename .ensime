@@ -1,0 +1,26 @@
+(
+ :root-dir "/Users/espinho/Desktop/ensimeTest"
+ :cache-dir "/Users/espinho/Desktop/ensimeTest/.ensime_cache"
+ :scala-compiler-jars ("/Users/espinho/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar" "/Users/espinho/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar" "/Users/espinho/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar" "/Users/espinho/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.8.jar")
+ :name "root"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home"
+ :java-flags ("-Xss2m" "-Xms1024m" "-Xmx1024m" "-XX:ReservedCodeCacheSize=128m" "-XX:MaxMetaspaceSize=256m")
+ :java-compiler-args nil
+ :reference-source-roots ("/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip")
+ :scala-version "2.11.8"
+ :compiler-args ("-feature" "-deprecation" "-Xlint" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Xfuture" "-Ywarn-unused-import" "-Ymacro-expand:discard")
+ :disable-source-monitoring nil
+ :disable-class-monitoring nil
+ :source-mode nil
+ :subprojects ((
+   :name "root"
+   :source-roots ("/Users/espinho/Desktop/ensimeTest/src/main/scala")
+   :targets ("/Users/espinho/Desktop/ensimeTest/target/scala-2.11/classes")
+   :test-targets ("/Users/espinho/Desktop/ensimeTest/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/espinho/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/bundles/scalaz-concurrent_2.11-7.2.7.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.2.7.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-effect_2.11/bundles/scalaz-effect_2.11-7.2.7.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/espinho/Desktop/ensimeTest/target/scala-2.11/hello_2.11-1.0-javadoc.jar" "/Users/espinho/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/docs/scalaz-concurrent_2.11-7.2.7-javadoc.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-core_2.11/docs/scalaz-core_2.11-7.2.7-javadoc.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-effect_2.11/docs/scalaz-effect_2.11-7.2.7-javadoc.jar")
+   :reference-source-roots ("/Users/espinho/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/srcs/scalaz-concurrent_2.11-7.2.7-sources.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.7-sources.jar" "/Users/espinho/.ivy2/cache/org.scalaz/scalaz-effect_2.11/srcs/scalaz-effect_2.11-7.2.7-sources.jar")))
+)
